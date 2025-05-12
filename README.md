@@ -29,7 +29,7 @@ About the data: This dataset contains house sale prices for King County for home
 |----|------------------|-----------|---------------------------------------------------|
 | 1  | id               | integer   | Unique ID for each home sold                      |
 | 2  | date             | string    | Date the house was sold                           |
-| 3  | price            | float     | Target variable: house price                      |
+| 3  | yr_built         | integer   | Year built                                        |
 | 4  | bedrooms         | integer   | Number of bedrooms                                |
 | 5  | bathrooms        | float     | Number of bathrooms                               |
 | 6  | sqft_living      | integer   | Living area in square feet                        |
@@ -41,13 +41,14 @@ About the data: This dataset contains house sale prices for King County for home
 | 12 | grade            | integer   | Overall grade (workmanship & design)              |
 | 13 | sqft_above       | integer   | Square feet above ground                          |
 | 14 | sqft_basement    | integer   | Square feet in the basement                       |
-| 15 | yr_built         | integer   | Year built                                        |
+| 15 |price             | float     | Target variable: house price                      |
 | 16 | yr_renovated     | integer   | Year renovated (0 if never renovated)             |
 | 17 | zipcode          | integer   | Zip code area                                     |
 | 18 | lat              | float     | Latitude                                          |
 | 19 | long             | float     | Longitude                                         |
 | 20 | sqft_living15    | integer   | Avg living area of nearest 15 neighbors           |
 | 21 | sqft_lot15       | integer   | Avg lot size of nearest 15 neighbors              |
+ 
 
 
 
