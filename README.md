@@ -1,17 +1,17 @@
 # House-Price Prediction
-Question: What problem are we trying to solve or answer?
-Answer: Predict the price of a house using Machine Learning
+### Question: What problem are we trying to solve or answer?
+### Answer: Predict the price of a house using Machine Learning
 
--1. Table of Contents
--2. Data Details
--3. EDA
--4. Feature Selection
--5. Data Cleanup
--6. Modeling
--7. Cross Validation of Model Results
--8. Feature Engineering + Tuning
--9. Conclusion
--10. Business Insights
+# Table of Contents
+   1. Data Details
+   2. EDA
+   3. Feature Selection
+   4. Data Cleanup
+   5. Modeling
+   6. Cross Validation of Model Results
+   7. Feature Engineering + Tuning
+   8. Conclusion
+   9. Business Insights
 
 
 
