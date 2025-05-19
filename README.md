@@ -51,7 +51,7 @@ About the data: This dataset contains house sale prices for King County for home
  
 
 ### Data Snapshot
-[Data Snapshot](https://onedrive.live.com/?cid=F021F9F9BDA04EE7&sb=name&sd=1&id=F021F9F9BDA04EE7%21scf61ef90080043aab04f05ae487d7069&parId=F021F9F9BDA04EE7%21s1841d9d4f6d443ffbfd91056fd06c4f7&o=OneUp)
+![Data Snapshot](https://onedrive.live.com/?cid=F021F9F9BDA04EE7&sb=name&sd=1&id=F021F9F9BDA04EE7%21scf61ef90080043aab04f05ae487d7069&parId=F021F9F9BDA04EE7%21s1841d9d4f6d443ffbfd91056fd06c4f7&o=OneUp)
 
 
 
