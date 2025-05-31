@@ -178,11 +178,17 @@ Coefficient between the columns is weaker if they show as blue in the graph -  t
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2020.png)
 
 ### Analysis from Coorelation Matrix
-# Findings from Correlation Matrix
 
  1. sqft_living, sqft_above, and sqft_living15 are highly correlated with each other.
  2. bedrooms, bathrooms, and grade also show strong positive correlations with many other features.
  3. zipcode has low or no correlation with most variables, suggesting it might be better treated as a categorical feature.
 --------------------------------------------------------------------------------------------------------------------------------------------
-#### Distribution for
+### Outlier Analysis
+  #### Using Box plot to see how is the distribution of Price above and beyond the 1st and 3rd Quartile
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2021.png)
+
+### Analysis from Coorelation Matrix
+1. Clearly there are outliers which needs to be removed
+2. Clearly there are few outliers above 8000 sqft but those numbers are very less and can be ignored
+3. Clearly the feature values are not normalized and need normalization, scaling, additional columns might need to be created using logs
+
