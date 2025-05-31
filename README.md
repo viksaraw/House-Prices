@@ -88,31 +88,43 @@ Following Steps have been Taken on EDA
 # Univariate Distribution 
 Histogram for all the numerical columns- check skewness, check values which can be ignored
 
-#### Distribution for Number of Bedrooms
+#### 1. Distribution for Number of Bedrooms
 ![Histogram for No of Bedrooms](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%201.png)
 
-#### Distribution for Number of Bathrooms
+#### 2. Distribution for Number of Bathrooms
 ![Number of Bathrooms](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%202.png)
 
-#### Distribution for Sqft Living
+#### 3. Distribution for Sqft Living
 ![Sauare Foot Living](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%203.png)
 
-#### Distribution for Sqft Lot
+#### 4. Distribution for Grade
 ![Square Foot Lot](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%204.png)
 
-#### Distribution for number of floors
+#### 5. Distribution for number of floors
 ![Number of floors](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%205.png)
 
-#### Distribution for 
+#### 6. Distribution for sqft_basement
 ![Distribution](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%206.png)
 
-#### Distribution for 
+#### Distribution for year built
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%207.png)
 
-#### Distribution for
+#### Distribution for square ft living 15
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%208.png)
 
-#### Distribution for
+#### Analysis from Univariate EDA
+### Findings
+1. Histogram is right skewed for Sqft_living - we can ignore the sqft living after 4000
+2. Histogram is right skewed for sqft_above - so sqft_above > 6000 can be ignored
+3. Histogram is very hight for sqft_basement with 0 value- meaning many houses don't have basement
+4. histogram is right skewed for sqft_basement - meaning data set has less records for houses having more than 2000 sqft_basement
+
+----------------------------------------------------------------------------------------------------------------------------------
+### Bivariate Analysis
+
+Scatter plot of price against various other columns to see the pattern of positive or negativer relationship with price
+
+#### Distribution for price against number of Bedrooms
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%209.png)
 -------------------------------------------------------------------------------------
 #### Distribution for
