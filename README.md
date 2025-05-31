@@ -85,3 +85,69 @@ Following Steps have been Taken on EDA
 5. Corelation Matrix
 
 
+# Univariate Distribution 
+Histogram for all the numerical columns- check skewness, check values which can be ignored
+
+#### Distribution for Number of Bedrooms
+![Histogram for No of Bedrooms](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%201.png)
+
+#### Distribution for Number of Bathrooms
+![Number of Bathrooms](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%202.png)
+
+#### Distribution for Sqft Living
+![Sauare Foot Living](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%203.png)
+
+#### Distribution for Sqft Lot
+![Square Foot Lot](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%204.png)
+
+#### Distribution for number of floors
+![Number of floors](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%205.png)
+
+#### Distribution for 
+![Distribution](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%206.png)
+
+#### Distribution for 
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%207.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%208.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%209.png)
+-------------------------------------------------------------------------------------
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2010.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2011.png)
+
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2012.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2013.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2014.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2015.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2016.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2017.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2018.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2019.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2020.png)
+
+#### Distribution for
+![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2021.png)
