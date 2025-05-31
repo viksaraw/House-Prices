@@ -127,36 +127,47 @@ Scatter plot of price against various other columns to see the pattern of positi
 #### Distribution for price against number of Bedrooms
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%209.png)
 -------------------------------------------------------------------------------------
-#### Distribution for
+#### Distribution for price against number of bathrooms
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2010.png)
 
-#### Distribution for
+#### Distribution for price against sqft_living
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2011.png)
 
 
-#### Distribution for
+#### Distribution for price against sqft_lot
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2012.png)
 
-#### Distribution for
+#### Distribution for price against grade
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2013.png)
 
-#### Distribution for
+#### Distribution for price against sqft_above
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2014.png)
 
-#### Distribution for
+#### Distribution for price against sqft_basement
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2015.png)
 
-#### Distribution for
+#### Distribution for price against year built
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2016.png)
 
-#### Distribution for
+#### Distribution for year renovated
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2017.png)
 
-#### Distribution for
+#### Distribution for sqft living 15
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2018.png)
 
-#### Distribution for
+#### Distribution for sqft lot 15
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2019.png)
+
+### Analysis of Bivariate Distribution
+1. Analysis 1: The price increases as number of bedroom increases from 0 to 5 but decreases from 5 to 10
+2. Analysis 2: Price increases with increase in bathroom 
+3. Analysis 3: Price increases with increase in sqft_living
+4. Analysis 4: Price for all the views are similar - may be view is a candidate column to drop
+5. Analysis 5: Price increases as grade increases
+6. Analysis 6: Price increases with sqft_above
+-----------------------------------------------------------------------------------------------------------------------------
+
+### Correlation Matrix to 
 
 #### Distribution for
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2020.png)
