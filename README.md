@@ -41,17 +41,47 @@ About the data: This dataset contains house sale prices for King County for home
 | 12 | grade            | integer   | Overall grade (workmanship & design)              |
 | 13 | sqft_above       | integer   | Square feet above ground                          |
 | 14 | sqft_basement    | integer   | Square feet in the basement                       |
-| 15 |price             | float     | Target variable: house price                      |
+| 15 | price            | float     | Target variable: house price                      |
 | 16 | yr_renovated     | integer   | Year renovated (0 if never renovated)             |
 | 17 | zipcode          | integer   | Zip code area                                     |
 | 18 | lat              | float     | Latitude                                          |
 | 19 | long             | float     | Longitude                                         |
 | 20 | sqft_living15    | integer   | Avg living area of nearest 15 neighbors           |
 | 21 | sqft_lot15       | integer   | Avg lot size of nearest 15 neighbors              |
- 
-### Data Snapshot
-Belo is the snapshot of sample data
-[!Data Snapshot](https://onedrive.live.com/?cid=F021F9F9BDA04EE7&sb=name&sd=1&id=F021F9F9BDA04EE7%21scf61ef90080043aab04f05ae487d7069&parId=F021F9F9BDA04EE7%21s1841d9d4f6d443ffbfd91056fd06c4f7&o=OneUp)
 
+
+### Data Snapshot
+Below is the snapshot of sample data
+![Data Snapshots](https://github.com/viksaraw/House-Prices/blob/main/Pics/Data%201.png)
+
+
+### Data Quality
+
+It is important to validate the quality of data before doing Machine learning Modeling.
+Following steps have been taken to assure the quality of data
+
+#### Steps taken to validate Data Quality
+
+	
+   1. Missing Data : Verified Misssing data- No missing data found in the dataframe
+   2. Duplicate data : Verified Duplicate records - No duplicate records found
+   3. Wrong data values - NaN, Wrong Price Values - Validated unique value for each column
+   4. Incorrect format/ Data Types - Date field is in String format, it's data type needs to be changed to Int. TO make it consistent with year renovated, it makes sense to 
+      remove the month and date values and just keep the year value
+   5. Drop Columns which doesn't make any sense in modeling based upon Functional knowledge - Dropped Id
+       
+		
+### EDA = Exploratory Data Analysis
+File: 
+Exploratory Data Analysis (EDA) in machine learning is a crucial preliminary step that involves examining datasets to understand their characteristics, patterns, and relationships before building models. It helps uncover insights, identify anomalies, and test hypotheses, leading to a deeper understanding of the data and informed decisions about model selection and preprocessing. 
+
+
+Following Steps have been Taken on EDA
+
+1. Univariate Distributions
+2. Bivariate Distributions
+3. Multivariate Distribution
+4. Outlier Analysis
+5. Corelation Matrix
 
 
