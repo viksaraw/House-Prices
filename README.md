@@ -167,10 +167,22 @@ Scatter plot of price against various other columns to see the pattern of positi
 6. Analysis 6: Price increases with sqft_above
 -----------------------------------------------------------------------------------------------------------------------------
 
-### Correlation Matrix to 
+### Correlation Matrix 
+A correlation matrix in data modeling is a table displaying correlation coefficients between variables. It quantifies the strength and direction of the relationship between variables, helping to identify patterns and improve model building by revealing which variables are most closely related. 
 
-#### Distribution for
+
+#### Correlation Matrix displaying columns having strong and weak coefficients
+Coefficient between the columns is stronger if they show as red in the graph - the deeper red the stronger coefficients
+Coefficient between the columns is weaker if they show as blue in the graph -  the deeper blue the weaker coefficients
+
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2020.png)
 
+### Analysis from Coorelation Matrix
+# Findings from Correlation Matrix
+
+ 1. sqft_living, sqft_above, and sqft_living15 are highly correlated with each other.
+ 2. bedrooms, bathrooms, and grade also show strong positive correlations with many other features.
+ 3. zipcode has low or no correlation with most variables, suggesting it might be better treated as a categorical feature.
+--------------------------------------------------------------------------------------------------------------------------------------------
 #### Distribution for
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2021.png)
