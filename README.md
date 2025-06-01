@@ -189,7 +189,7 @@ Coefficient between the columns is weaker if they show as blue in the graph -  t
   #### Using Box plot to see how is the distribution of Price above and beyond the 1st and 3rd Quartile
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2021.png)
 
-### Analysis from Coorelation Matrix
+### Analysis from Outlier Analysis
 1. Clearly there are outliers which needs to be removed
 2. Clearly there are few outliers above 8000 sqft but those numbers are very less and can be ignored
 3. Clearly the feature values are not normalized and need normalization, scaling, additional columns might need to be created using logs
