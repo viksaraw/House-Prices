@@ -201,4 +201,49 @@ Coefficient between the columns is weaker if they show as blue in the graph -  t
 4. Clearly the feature values are not normalized and need normalization, scaling, additional columns might need to be created using logs
 5. zipcode has low or no correlation with most variables, suggesting it might be better treated as a categorical feature.
 
+-------------------------------------------------------------------------------------------------------------------------------------------
 
+#### Feature Selection
+
+Feature selection in machine learning is the process of selecting a subset of relevant features from a larger set to improve model performance, reduce overfitting, and enhance interpretability. It involves identifying and eliminating redundant or irrelevant features to build more efficient and accurate predictive models
+
+Following models have been used to know the best features from the data set
+1. Decision Tree Classifier
+2. XBoost Classifier
+3. Variance Threshold
+
+
+#### Feature Importance By Decision Tree Classifier
+
+![Using Decision Tree](https://github.com/viksaraw/House-Prices/blob/main/Pics/FS1-%20DT.png)
+
+#### Feature importance by XBoost Regressor
+
+![Using XBoost](https://github.com/viksaraw/House-Prices/blob/main/Pics/FS2-Xb.png)
+
+#### Selected Features by XBoost Regressor
+![Selected Features by XBoost](https://github.com/viksaraw/House-Prices/blob/main/Pics/FS3-XB2.png)
+
+#### Feature importance by Variance Trheshold
+![Using Variance Threshold](https://github.com/viksaraw/House-Prices/blob/main/Pics/FS4-Var.png)
+
+#### Final Selected Features
+
+              grade        
+              sqft_living   
+              lat   
+              waterfront   
+              view   
+              long   
+              yr_built   
+              zipcode   
+              condition   
+              sqft_above   
+              yr_renovated   
+              bathrooms   
+              sqft_lot15   
+              sqft_lot   
+              sqft_basement   
+              floors   
+              bedrooms   
+              sqft_living 
