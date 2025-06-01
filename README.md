@@ -6,14 +6,11 @@
    1. [Data Details](/)
    2. [EDA](/)
    3. [Feature Selection](/)
-   4. [Data Cleanup](/)
-   5. [Modeling](/)
-   6. [Cross Validation of Model Results](/)
-   7. [Feature Engineering + Tuning](/)
-   8. [Conclusion](/)
-   9. [Business Insights](/)
+   4. [Modeling](/)
+   5. [Cross Validation of Model Results](/)
+   6. [Conclusion](/)
+   7. [Business Insights](/)
        
-
 ---
 ### Data Details 
 Source: https://www.kaggle.com/datasets/harlfoxem/housesalesprediction?resource=download
@@ -229,21 +226,27 @@ Following models have been used to know the best features from the data set
 
 #### Final Selected Features
 
-              grade        
-              sqft_living   
-              lat   
-              waterfront   
-              view   
-              long   
-              yr_built   
-              zipcode   
-              condition   
-              sqft_above   
-              yr_renovated   
-              bathrooms   
-              sqft_lot15   
-              sqft_lot   
-              sqft_basement   
-              floors   
-              bedrooms   
-              sqft_living 
+|# | Column Name    |   Reason                                            |
+|--|----------------|---------------------------------------------------  |
+|1 |  grade         |                                                     |
+|2 |  sqft_living   |                                                     |
+|3 |  lat           |                                                     |
+|4 |  waterfront    |                                                     |
+|5 |  view          |                                                     |
+|6 |  long          |                                                     | 
+|7 |  yr_built      |                                                     |  
+|8 |  zipcode       |                                                     | 
+|9 |  condition     |                                                     | 
+|10|  sqft_above    |                                                     | 
+|11|  yr_renovated  |                                                     |  
+|12|  bathrooms     |                                                     |
+|13|  sqft_lot15    |                                                     | 
+|14|  sqft_lot      |                                                     |
+|15|  sqft_basement |                                                     |  
+|16|  floors        |                                                     |
+|17|  bedrooms      |                                                     |
+|18|  sqft_living   |                                                     |
+
+
+
+       
