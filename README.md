@@ -108,10 +108,10 @@ Histogram for all the numerical columns- check skewness, check values which can 
 #### 6. Distribution for sqft_basement
 ![Distribution](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%206.png)
 
-#### Distribution for year built
+#### 7. Distribution for year built
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%207.png)
 
-#### Distribution for square ft living 15
+#### 8. Distribution for square ft living 15
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%208.png)
 
 #### Analysis from Univariate EDA
@@ -126,38 +126,37 @@ Histogram for all the numerical columns- check skewness, check values which can 
 
 Scatter plot of price against various other columns to see the pattern of positive or negativer relationship with price
 
-#### Distribution for price against number of Bedrooms
+#### 1. Distribution for price against number of Bedrooms
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%209.png)
 -------------------------------------------------------------------------------------
-#### Distribution for price against number of bathrooms
+#### 2. Distribution for price against number of bathrooms
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2010.png)
 
-#### Distribution for price against sqft_living
+#### 3. Distribution for price against sqft_living
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2011.png)
 
-
-#### Distribution for price against sqft_lot
+#### 4. Distribution for price against sqft_lot
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2012.png)
 
-#### Distribution for price against grade
+#### 5. Distribution for price against grade
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2013.png)
 
-#### Distribution for price against sqft_above
+#### 6. Distribution for price against sqft_above
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2014.png)
 
-#### Distribution for price against sqft_basement
+#### 7. Distribution for price against sqft_basement
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2015.png)
 
-#### Distribution for price against year built
+#### 8. Distribution for price against year built
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2016.png)
 
-#### Distribution for year renovated
+#### 9. Distribution for year renovated
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2017.png)
 
-#### Distribution for sqft living 15
+#### 10. Distribution for sqft living 15
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2018.png)
 
-#### Distribution for sqft lot 15
+#### 11. Distribution for sqft lot 15
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2019.png)
 
 ### Analysis of Bivariate Distribution
