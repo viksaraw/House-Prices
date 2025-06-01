@@ -191,5 +191,14 @@ Coefficient between the columns is weaker if they show as blue in the graph -  t
 ### Analysis from Outlier Analysis
 1. Clearly there are outliers which needs to be removed
 2. Clearly there are few outliers above 8000 sqft but those numbers are very less and can be ignored
-3. Clearly the feature values are not normalized and need normalization, scaling, additional columns might need to be created using logs
+
+
+### Overall Analysis from EDA
+
+1. sqft_living, sqft_above, and sqft_living15 are highly correlated with each other
+2. sqft_living amd grade are linarly related to Price
+3. There are outliers for sqft_living and price which needs to be taken care while preprocessing
+4. Clearly the feature values are not normalized and need normalization, scaling, additional columns might need to be created using logs
+5. zipcode has low or no correlation with most variables, suggesting it might be better treated as a categorical feature.
+
 
