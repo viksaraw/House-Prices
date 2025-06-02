@@ -342,8 +342,49 @@ File :
 **3. Well-Balanced Model**
 	The close alignment between training and test metrics across R², recall, and precision suggests a well-tuned and stable model<br><br>
 
- 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  #### 3. XBoost Model
+
+  File:
+  
+  XGBoost is a highly efficient and accurate machine learning algorithm, especially well-suited for supervised learning tasks like classification and regression. It's a 
+  powerful ensemble method that builds on top of Gradient Boosting, using decision trees as its base learners.
+
+  **Advantages of XBoost Model**
+  
+  1. Efficiently handles missing values and outliers 
+  2. Includes built-in regularization to prevent overfitting
+  3. Scales well to large datasets 
+  4. Offers flexibility in tuning and optimization
 
 
- 
+  **Implementation**
+
+ 1. For better performance Date Sold was converted to year sold
+ 2. Data was split in X_train, X_test, y_train, y_test using standard train test split with trainning set having 80% data
+ 3. RandomForestRegressor model was instanced with n_estimators=100,learning_rate=0.1,max_depth=6
+ 4. Random Forest Regressor model was fitted and predicted
+ 5. Root Mean Squared Error, Accuracy, Recall and Precision Scores were calculated for Training and Test Sets
+
+  **Metrics with XBoost Model**
+![XBoost1](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%204-XB.png)<br>
+![Xboost2](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%205%20XB%202.png)
+
+**Conclusion from XBoost Model**
+
+1. Excellent Predictive Accuracy
+Test R²: 0.8796 shows that the model explains nearly 88% of the variance in house prices, outperforming both Decision Tree and Random Forest models<br><br>
+
+2. Moderate Prediction Error
+RMSE: $134,909 indicates the average prediction error is relatively low for a regression task involving house prices, especially considering the complexity of real estate data <br><br>
+
+3. Balanced Generalization
+Training R²: 0.9578 vs. Test R²: 0.8796 shows a small generalization gap, suggesting the model is well-regularized and not overfitting <br><br>
+
+4. High Recall and Precision
+Test Recall: 0.9244, Test Precision: 0.9098 — the model is both accurate and consistent in identifying relevant predictions, making it reliable for downstream decision-making<br><br>
+
+  
+
 
