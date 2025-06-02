@@ -271,3 +271,35 @@ First of all the Decision Tree Regressor was used. Since this easy to understand
 4. Feature selection: They can automatically select important features.
 
        
+**Implementation**
+1. For better performance Date Sold was converted to year sold
+2. Data was split in X_train, X_test, y_train, y_test using standard train test split with trainning set having 80% data
+3. DecisionTreeRegressor model was run, fitted and predicted
+4. Mean Squared Error, Mean Absolute Error, R2 Score were calculated
+5. Depth of Tree, number of leaves were saved
+6. Recall Score, precision Score and F1 score were saved
+
+#### MAE and MSE Score Metrices
+![MAE and MSE](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling1%20DT1.png)
+
+#### Precision Score, recall Score and other metrices
+![Precision and Recall](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%202%20DT2.png)
+
+**Conclusion from Decision Tree Regressor**
+
+1. **Overfitting is Evident**
+	Training Accuracy: 1.00 vs. Test Accuracy: 0.72
+	The model fits the training data perfectly but generalizes poorly to unseen data, indicating overfitting. This is also supported by the very deep tree (depth = 34) 	and large number of leaves (16,705).
+**2.  Moderate Predictive Power**
+	R² Score: 0.72
+	The model explains about 72% of the variance in the test data, which is decent but leaves room for improvement. This aligns with the test accuracy.
+**3. High Prediction Error**
+	MAE: $104,988, MSE: $42.2 billion
+	These are large error values, suggesting that the model's predictions can be significantly off from actual prices. MAE gives a more interpretable average error per 	prediction
+**4.  Poor Classification Metrics**
+	Recall: 0.0022, Precision: 0.0016, F1 Score: 0.0018
+	These metrics are extremely low, indicating that if you're using classification metrics on a regression task (perhaps for a thresholded price category), the model 	is not effective in identifying the correct class
+**5. Model Complexity is Too High**
+	Tree Depth: 34, Leaves: 16,705
+	Such a complex tree is likely memorizing the training data rather than learning general patterns. Pruning or limiting depth could help reduce overfitting and 		improve generalization.
+
