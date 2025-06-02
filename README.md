@@ -359,7 +359,6 @@ File :
   3. Scales well to large datasets 
   4. Offers flexibility in tuning and optimization
 
-
   **Implementation**
 
  1. For better performance Date Sold was converted to year sold
@@ -388,6 +387,64 @@ Training R²: 0.9578 vs. Test R²: 0.8796 shows a small generalization gap, sugg
 4. High Recall and Precision
 Test Recall: 0.9244, Test Precision: 0.9098 — the model is both accurate and consistent in identifying relevant predictions, making it reliable for downstream decision-making<br>
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  #### 3. Logistic Regression
+
+  File :
   
+  Logistic regression is a supervised machine learning algorithm in data science. It is a type of classification algorithm that predicts a discrete or categorical outcome. 
+
+  **Advantages of Logistic Regression Model**
+
+ 1. **Interpretability**: Logistic regression models are relatively easy to interpret compared to more complex models
+ 2. **Ease of Implementation:** It's a relatively simple and widely used model, with many statistical packages and libraries supporting it
+ 3. **Quantifies Impact:** It can quantify the magnitude of each independent variable's impact on the binary outcome
+
+**Implementation**
+
+ 1. For better performance Date Sold was converted to year sold
+ 2. Scaling was done using Standard Scaler
+ 3. Data was split in X_train, X_test, y_train, y_test using standard train test split with trainning set having 80% data
+ 4. Logistic Regression model was instanced,fitted and predicted
+ 5. Accuracy score was calculated
+ 6. Explained Variance Ratio by PCA component was calculated
+ 7. Classification Report was printed
+ 8. Confusion matrix was printed
+ 9. PCA Visualization was done with first 2 components
+
+**Metrics with Logistic Regression Model**<br>
+![Metrics](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%206%20Logistic%20Metrics.png)
+
+**Confusion Matrix**<br>
+
+Confusion matrix evaluates the performance of the classifier:
+
+True Positives (TP): 1829
+True Negatives (TN): 1851
+False Positives (FP): 285
+False Negatives (FN): 358
+
+![Confusion Matrix](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%207%20Logistic%20Confusion.png)
+
+**PCA Projection with first 2 components**<br>
+The PCA transformation enables a two-dimensional view of the dataset after reducing its dimensions. Logistic regression is then applied to distinguish between price categories.
+
+Red: Houses in the high-price segment
+Blue: Houses in the low-price segment
+Although some overlap is visible, the combination of PCA and logistic regression demonstrates a degree of linear class separation<br>
+
+![PCA Projection](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%208%20Logistic%20Variance.png)
+
+**Conclusion from Logistic Regression Model**<br>
+
+**1. Solid Classification Performance**
+The model achieves 85% accuracy, with balanced precision, recall, and F1-scores across both classes (0 and 1), indicating reliable and consistent classification<br>
+**2. Dimensionality Reduction Insight**
+The first few PCA components explain a significant portion of the variance (Component 1 alone explains 26.15%). This suggests that dimensionality reduction is effective, and the data has underlying structure that Logistic Regression can leverage<br>
+**3. Well-Balanced Model**
+The macro and weighted averages for precision, recall, and F1-score are all 0.85, showing that the model performs equally well across both classes, with no major bias toward one class<br>
+
+
 
 
