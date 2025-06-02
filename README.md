@@ -307,10 +307,11 @@ First of all the Decision Tree Regressor was used. Since this easy to understand
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- #### 2. Random Forest** 
+ #### 2. Random Forest
 It uses an ensemble of decision trees to make predictions. It's an ensemble method, meaning it combines the predictions of multiple models (in this case, decision trees) to arrive at a more accurate and robust result
 
 File : 
+
 **Advantages of Random Forest**
 
 1. Reduces Overfitting :By averaging the results of many decision trees, Random Forest smooths out predictions and reduces the risk of overfitting that plagues single trees.
@@ -328,6 +329,21 @@ File :
 
 **Metrics with Random Forest**
 ![Random Forest](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%203%20RF.png)
+
+**Conclusion from Random Forest Model**
+**1. Strong Generalization Performance**
+	Training R²: 0.9835, Test R²: 0.8530
+	The model generalizes well to unseen data, with only a modest drop from training to test accuracy—indicating low overfitting and high predictive power.<br><br>
+
+**2. High Recall and Precision**
+	Test Recall: 0.9258, Test Precision: 0.9086
+	The model is both sensitive (captures most relevant instances) and precise (makes few false predictions), making it reliable for tasks where both false positives 	and false negatives matter.<br><br>
+
+**3. Well-Balanced Model**
+	The close alignment between training and test metrics across R², recall, and precision suggests a well-tuned and stable model<br><br>
+
+ 
+
 
  
 
