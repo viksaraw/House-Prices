@@ -328,19 +328,20 @@ File :
 4. Accuracy, Recall and Precision Score were calculated for Training and Test Data set
 
 **Metrics with Random Forest**
+
 ![Random Forest](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%203%20RF.png)
 
-**Conclusion from Random Forest Model**
+**Conclusion from Random Forest Model**<br>
 **1. Strong Generalization Performance**
 	Training R²: 0.9835, Test R²: 0.8530
-	The model generalizes well to unseen data, with only a modest drop from training to test accuracy—indicating low overfitting and high predictive power.<br><br>
+	The model generalizes well to unseen data, with only a modest drop from training to test accuracy—indicating low overfitting and high predictive power.<br>
 
 **2. High Recall and Precision**
 	Test Recall: 0.9258, Test Precision: 0.9086
-	The model is both sensitive (captures most relevant instances) and precise (makes few false predictions), making it reliable for tasks where both false positives 	and false negatives matter.<br><br>
+	The model is both sensitive (captures most relevant instances) and precise (makes few false predictions), making it reliable for tasks where both false positives 	and false negatives matter.<br>
 
 **3. Well-Balanced Model**
-	The close alignment between training and test metrics across R², recall, and precision suggests a well-tuned and stable model<br><br>
+	The close alignment between training and test metrics across R², recall, and precision suggests a well-tuned and stable model<br>
 
  ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
