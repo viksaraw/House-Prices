@@ -201,6 +201,7 @@ Coefficient between the columns is weaker if they show as blue in the graph -  t
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Feature Selection
+File:
 
 Feature selection in machine learning is the process of selecting a subset of relevant features from a larger set to improve model performance, reduce overfitting, and enhance interpretability. It involves identifying and eliminating redundant or irrelevant features to build more efficient and accurate predictive models
 
@@ -262,6 +263,7 @@ I will apply the following models and measure their metrics
 
 
 #### 1. Decision Tree
+File : 
 First of all the Decision Tree Regressor was used. Since this easy to understand and visualize, making them valuable for decision-making. 
 
 **Advantages**:
@@ -302,6 +304,30 @@ First of all the Decision Tree Regressor was used. Since this easy to understand
 **5. Model Complexity is Too High**
 	Tree Depth: 34, Leaves: 16,705
 	Such a complex tree is likely memorizing the training data rather than learning general patterns. Pruning or limiting depth could help reduce overfitting and 		improve generalization <br><br>
+
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ #### 2. Random Forest** 
+It uses an ensemble of decision trees to make predictions. It's an ensemble method, meaning it combines the predictions of multiple models (in this case, decision trees) to arrive at a more accurate and robust result
+
+File : 
+**Advantages of Random Forest**
+
+1. Reduces Overfitting :By averaging the results of many decision trees, Random Forest smooths out predictions and reduces the risk of overfitting that plagues single trees.
+2. Improves Accuracy :Typically achieves higher accuracy than a single decision tree due to the ensemble approach, which captures more complex patterns in the data.
+3. Handles Non-Linearity and Interactions Well:Can model non-linear relationships and feature interactions without needing explicit specification.
+4. Robust to Noise and Outliers: Since it aggregates predictions from multiple trees, it’s less sensitive to noisy data and outliers.
+5. Works Well with Missing Data: Can handle missing values better than many other models, especially if imputation is used.
+
+**Implementation**
+
+1. For better performance Date Sold was converted to year sold
+2. Data was split in X_train, X_test, y_train, y_test using standard train test split with trainning set having 80% data
+3. RandomForestRegressor model was run, fitted and predicted
+4. Accuracy, Recall and Precision Score were calculated for Training and Test Data set
+
+**Metrics with Random Forest**
+![Random Forest](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%203%20RF.png)
 
  
 
