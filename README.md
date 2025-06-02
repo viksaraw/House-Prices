@@ -367,23 +367,25 @@ File :
  4. Random Forest Regressor model was fitted and predicted
  5. Root Mean Squared Error, Accuracy, Recall and Precision Scores were calculated for Training and Test Sets
 
-  **Metrics with XBoost Model**
+**Feature Importance with XBoost Model**
 ![XBoost1](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%204-XB.png)<br>
+
+**Metrics with XBoost Model**
 ![Xboost2](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%205%20XB%202.png)
 
 **Conclusion from XBoost Model**
 
 1. Excellent Predictive Accuracy
-Test R²: 0.8796 shows that the model explains nearly 88% of the variance in house prices, outperforming both Decision Tree and Random Forest models<br><br>
+Test R²: 0.8796 shows that the model explains nearly 88% of the variance in house prices, outperforming both Decision Tree and Random Forest models<br>
 
 2. Moderate Prediction Error
-RMSE: $134,909 indicates the average prediction error is relatively low for a regression task involving house prices, especially considering the complexity of real estate data <br><br>
+RMSE: $134,909 indicates the average prediction error is relatively low for a regression task involving house prices, especially considering the complexity of real estate data <br>
 
 3. Balanced Generalization
-Training R²: 0.9578 vs. Test R²: 0.8796 shows a small generalization gap, suggesting the model is well-regularized and not overfitting <br><br>
+Training R²: 0.9578 vs. Test R²: 0.8796 shows a small generalization gap, suggesting the model is well-regularized and not overfitting <br>
 
 4. High Recall and Precision
-Test Recall: 0.9244, Test Precision: 0.9098 — the model is both accurate and consistent in identifying relevant predictions, making it reliable for downstream decision-making<br><br>
+Test Recall: 0.9244, Test Precision: 0.9098 — the model is both accurate and consistent in identifying relevant predictions, making it reliable for downstream decision-making<br>
 
   
 
