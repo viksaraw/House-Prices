@@ -247,6 +247,27 @@ Following models have been used to know the best features from the data set
 |17|  bedrooms      |                                                     |
 |18|  sqft_living   |                                                     |
 
+### Modeling
+Now that the Data is cleaned up and Features are decided, it is time to add different models to this and see their performance
 
+I will apply the following models and measure their metrics
+
+1. Decision Tree
+2. XBoost Regression
+3. Random Forest
+4. Logistic Regression
+5. Linear Regression
+6. Ridge Regression
+7. Lasso Regression
+
+
+#### 1. Decision Tree
+First of all the Decision Tree Regressor was used. Since this easy to understand and visualize, making them valuable for decision-making. 
+
+**Advantages**:
+1. Interpretability: Decision trees are easy to understand and visualize, making them valuable for decision-making. 
+2. No data preprocessing: They can handle data without normalization or scaling. 
+3. Can handle both categorical and numerical data: They are versatile for different problem types. 
+4. Feature selection: They can automatically select important features.
 
        
