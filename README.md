@@ -449,24 +449,106 @@ The macro and weighted averages for precision, recall, and F1-score are all 0.85
 
 ### Linear Regression Model
 
+File:
+
 Linear regression models the relationship between a dependent variable (target) and one or more independent variables (features) by fitting a straight line (in 2D) or a hyperplane (in higher dimensions) through the data
 
-Mathematical Form
+**Mathematical Form**
+
 ![Mathematical Form](https://github.com/viksaraw/House-Prices/blob/main/Pics/Linear%20Rg%20Math.png)
 
- 1. Simple and Easy to Interpret
+**Advantages of Linear Regression Model**
+
+**1. Simple and Easy to Interpret**	
 	Linear regression is straightforward to understand and implement.
 	The model’s coefficients clearly show the impact of each feature on the target variable<br>
-2. Fast and Efficient
+**2. Fast and Efficient**	
 	It’s computationally inexpensive, making it ideal for large datasets and real-time applications<br>
-3. Good for Linearly Separable Data
+**3. Good for Linearly Separable Data**
 	Performs well when the relationship between features and the target is approximately linear<br>
-4. Useful for Inference
+**4. Useful for Inference**
 	Helps in understanding relationships between variables, not just prediction.
 	You can test hypotheses about the data using statistical metrics like p-values and confidence intervals<br>
 
+**Implementation**
+
+ 1. For better performance Date Sold was converted to year sold
+ 2. Scaling was done using Standard Scaler
+ 3. Data was split in X_train, X_test, y_train, y_test using standard train test split with trainning set having 80% data
+ 4. Pipeline was created with standard scaler and linear regression
+ 5. Linear Regression model was instanced,fitted and predicted
+ 6. Cross Validation was done with params ranging from 2 to 11
+ 7. Best param was found using Cross Validation
+ 8. Metrics like Meas Square Error, Root Mean Squared Error were calculated
+    
+**Metrics with Linear Regression Model**<br>
+![Metrics with Linear Regression](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%209%20Linear%20Regression.png)
 
 
+**Conclusion from Linear Regression Model**<br>
+
+1. Consistent Performance Across Train and Test Sets
+	Train R²: 0.701, Test R²: 0.703 — the model generalizes well, with nearly identical performance on both sets, indicating low overfitting
+
+2.Moderate Prediction Error
+	Train RMSE: $197,757, Test RMSE: $212,041 — the model has a reasonable error margin, though the absolute values suggest room for improvement, especially for 		high-	value predictions
+
+3.Stable Cross-Validation Results
+	10-fold cross-validation confirms the model’s stability, with the best test MSE at ~$44.96 billion, reinforcing that the model performs consistently across 		different data splits
+
+4.Simple Yet Effective Configuration
+	The best parameter found was fit_intercept=True, showing that even a basic linear regression setup can yield solid results when the data has a linear trend
+
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ ### Ridge Regression
+
+ File: 
+
+ Ridge Regression is a type of regularized linear regression that adds a penalty to the size of the coefficients to prevent overfitting. It’s especially useful when your 
+ data has multicollinearity (i.e., highly correlated features) or when the number of features is large compared to the number of observations<br>
+ 
+ ![Ridge Regression ](https://github.com/viksaraw/House-Prices/blob/main/Pics/Ridge%20Mathematical%20Form.png)
+
+**Key Benefits**
+1. Reduces overfitting by shrinking coefficients
+2. Handles multicollinearity better than standard linear regression
+3. Improves generalization on unseen data
+4. Keeps all features in the model (unlike Lasso, which can zero some out)
+
+**Implementation**
+
+1. For better performance Date Sold was converted to year sold
+2. Scaling was done using Standard Scaler
+3. Data was split in X_train, X_test, y_train, y_test using standard train test split with trainning set having 80% data
+4. Pipeline was created with standard scaler and linear regression
+5. Ridge Regression model was instanced,fitted and predicted
+6. Cross Validation was done with params ranging from 2 to 11
+7. Best param was found using Cross Validation
+8. Metrics like Meas Square Error, Root Mean Squared Error were calculated
+
+**Metrics with Ridge Regression Model**<br>
+
+Best hyper parameter Value obtained by Cross Validation Technique
+
+![Best CV value](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%2011%20Ridge%201.png)
+
+Metrics from Ridge Regression
+
+![Metrics from Ridge](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%2012%20Ridge%202.png)
+
+Conclusion from using Ridge Regression
+
+1. Consistent and Balanced Performance
+	Training R²: 0.701, Test R²: 0.703 — the model performs consistently across both sets, indicating good generalization and minimal overfitting.
+2. Moderate Prediction Error
+	Test RMSE: $212,053, Test MAE: $126,902 — while the model is stable, the error values suggest that predictions can still be off by a significant margin, especially 	for high-priced properties.
+3. Cross-Validation Stability
+	Best CV value: 2, with a Test MSE of ~$44.97 billion, shows that the model maintains reliable performance across folds, though a higher CV value might offer more 	robust validation.
+4. Effective Regularization
+	Ridge regression helps control coefficient magnitudes, improving model stability without sacrificing accuracy, especially in the presence of multicollinearity
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
