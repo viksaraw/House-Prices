@@ -445,6 +445,17 @@ The first few PCA components explain a significant portion of the variance (Comp
 **3. Well-Balanced Model**
 The macro and weighted averages for precision, recall, and F1-score are all 0.85, showing that the model performs equally well across both classes, with no major bias toward one class<br>
 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+### Linear Regression Model
+
+Linear regression models the relationship between a dependent variable (target) and one or more independent variables (features) by fitting a straight line (in 2D) or a hyperplane (in higher dimensions) through the data
+
+Mathematical Form
+![Mathematical Form](https://github.com/viksaraw/House-Prices/blob/main/Pics/Linear%20Rg%20Math.png)
+
+
+
 
 
 
