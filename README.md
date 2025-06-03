@@ -550,5 +550,43 @@ Conclusion from using Ridge Regression
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+ ### Lasso Regression
+
+File: 
+
+Lasso Regression (short for Least Absolute Shrinkage and Selection Operator) is a type of linear regression with L1 regularization. It not only helps prevent overfitting but also performs feature selection by shrinking some coefficients exactly to zero.
+
+![LassoRegression](https://github.com/viksaraw/House-Prices/blob/main/Pics/Lasso%20Regression%20Mathematical.png)
+
+**Key Advantages**
+
+1. Reduces overfitting by penalizing large coefficients.
+2. Performs automatic feature selection by setting some coefficients to zero.
+3. Useful when you suspect only a subset of features are truly important.
+4. Helps in building simpler, more interpretable models.
+
+**Implementation**
+
+1. For better performance Date Sold was converted to year sold
+2. Scaling was done using Standard Scaler
+3. Data was split in X_train, X_test, y_train, y_test using standard train test split with trainning set having 80% data
+4. Pipeline was created with standard scaler and linear regression
+5. Lasso Regression model was instanced,fitted and predicted
+6. Metrics like Meas Square Error, Root Mean Squared Error were calculated
+
+**Metrics with Lasso Regression Model**<br>
+
+![ModelingLasso](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%2010-%20Lasso.png)
+
+**Conclusion**
+
+1. Consistent Model Performance
+	Training R²: 0.701, Test R²: 0.703 — the model performs nearly identically on both sets, indicating strong generalization and minimal overfitting.
+2. Moderate Prediction Error
+	Test RMSE: $212,052, Test MAE: $126,906 — the model maintains a reasonable error margin, similar to Ridge and Linear Regression, suggesting stable predictive 		capability.
+3. Potential Feature Selection
+	Since Lasso applies L1 regularization, it likely reduced the influence of less important features, possibly setting some coefficients to zero, which helps in 		simplifying the model.
+4. Comparable to Ridge and Linear Regression
+	The performance metrics are very close to Ridge and standard Linear Regression, indicating that Lasso is equally effective for this dataset, with the added benefit 	of automatic feature selection.
 
 
