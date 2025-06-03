@@ -454,6 +454,17 @@ Linear regression models the relationship between a dependent variable (target) 
 Mathematical Form
 ![Mathematical Form](https://github.com/viksaraw/House-Prices/blob/main/Pics/Linear%20Rg%20Math.png)
 
+ 1. Simple and Easy to Interpret
+	Linear regression is straightforward to understand and implement.
+	The model’s coefficients clearly show the impact of each feature on the target variable<br>
+2. Fast and Efficient
+	It’s computationally inexpensive, making it ideal for large datasets and real-time applications<br>
+3. Good for Linearly Separable Data
+	Performs well when the relationship between features and the target is approximately linear<br>
+4. Useful for Inference
+	Helps in understanding relationships between variables, not just prediction.
+	You can test hypotheses about the data using statistical metrics like p-values and confidence intervals<br>
+
 
 
 
