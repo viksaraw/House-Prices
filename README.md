@@ -588,5 +588,40 @@ Lasso Regression (short for Least Absolute Shrinkage and Selection Operator) is 
 	Since Lasso applies L1 regularization, it likely reduced the influence of less important features, possibly setting some coefficients to zero, which helps in 		simplifying the model.
 4. Comparable to Ridge and Linear Regression
 	The performance metrics are very close to Ridge and standard Linear Regression, indicating that Lasso is equally effective for this dataset, with the added benefit 	of automatic feature selection.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Conclusion
+
+1. I used this excercise to create one working predictive model to predict the housing price of the given data set
+2. I did basic Machine learning excercises following CRISP and run few models
+3. I compared the performance of the models to find the best one
+4. While doing this excercise I found some insights which I am sharing at the end
+
+#### Metrics of Model Comparison
+![Model Comparison](https://github.com/viksaraw/House-Prices/blob/main/Pics/Comparision%201.png)
+
+**Clearly Best Model: XGBoost**
+	Highest R²: 0.88752 → explains the most variance in the target variable
+	Lowest RMSE: 122,888.77 → lowest average prediction error
+	Lowest Std Dev: Indicates stable performance across folds
+    
+**Runner-Up: Random Forest**
+	Very close in performance to XGBoost, but slightly lower R² and higher RMSE
+    
+**Summary:**
+	XGBoost is the best overall model in this comparison
+	It's both accurate and consistent, making it a strong choice for predicting house prices
+
+ #### Model Comparison Graph
+ ![Model Comparison Graph](https://github.com/viksaraw/House-Prices/blob/main/Pics/Comparision%203.png)
+
+ ### Insights
+
+ 
+
+ 
+
+
+
+   
 
