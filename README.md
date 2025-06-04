@@ -201,9 +201,9 @@ Coefficient between the columns is weaker if they show as blue in the graph -  t
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Feature Selection
-Files
+**Files**
 
-By Decision Tree: https://github.com/viksaraw/House-Prices/blob/main/Scripts/FeatureSelectionByDecisionTree.ipynb
+By Decision Tree: https://github.com/viksaraw/House-Prices/blob/main/Scripts/FeatureSelectionByDecisionTree.ipynb  <br>
 By Other Models: https://github.com/viksaraw/House-Prices/blob/main/Scripts/Feature%20Selection.ipynb
 
 Feature selection in machine learning is the process of selecting a subset of relevant features from a larger set to improve model performance, reduce overfitting, and enhance interpretability. It involves identifying and eliminating redundant or irrelevant features to build more efficient and accurate predictive models
@@ -315,7 +315,7 @@ First of all the Decision Tree Regressor was used. Since this easy to understand
  #### 2. Random Forest
 It uses an ensemble of decision trees to make predictions. It's an ensemble method, meaning it combines the predictions of multiple models (in this case, decision trees) to arrive at a more accurate and robust result
 
-File : 
+File : https://github.com/viksaraw/House-Prices/blob/main/Scripts/Random%20Forest.ipynb
 
 **Advantages of Random Forest**
 
@@ -352,7 +352,7 @@ File :
 
   #### 3. XBoost Model
 
-  File:
+  File: https://github.com/viksaraw/House-Prices/blob/main/Scripts/XBoost.ipynb
   
   XGBoost is a highly efficient and accurate machine learning algorithm, especially well-suited for supervised learning tasks like classification and regression. It's a 
   powerful ensemble method that builds on top of Gradient Boosting, using decision trees as its base learners.
@@ -396,7 +396,7 @@ Test Recall: 0.9244, Test Precision: 0.9098 — the model is both accurate and c
 
   #### 3. Logistic Regression
 
-  File :
+  File : https://github.com/viksaraw/House-Prices/blob/main/Scripts/Logistic%20Regression.ipynb
   
   Logistic regression is a supervised machine learning algorithm in data science. It is a type of classification algorithm that predicts a discrete or categorical outcome. 
 
@@ -432,7 +432,7 @@ False Negatives (FN): 358
 
 ![Confusion Matrix](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%207%20Logistic%20Confusion.png)
 
-**PCA Projection with first 2 components**<br>
+**PCA Projection with first 2 components**<br><br>
 The PCA transformation enables a two-dimensional view of the dataset after reducing its dimensions. Logistic regression is then applied to distinguish between price categories.
 
 Red: Houses in the high-price segment
@@ -444,17 +444,17 @@ Although some overlap is visible, the combination of PCA and logistic regression
 **Conclusion from Logistic Regression Model**<br>
 
 **1. Solid Classification Performance**
-The model achieves 85% accuracy, with balanced precision, recall, and F1-scores across both classes (0 and 1), indicating reliable and consistent classification<br>
+The model achieves 85% accuracy, with balanced precision, recall, and F1-scores across both classes (0 and 1), indicating reliable and consistent classification<br><br>
 **2. Dimensionality Reduction Insight**
-The first few PCA components explain a significant portion of the variance (Component 1 alone explains 26.15%). This suggests that dimensionality reduction is effective, and the data has underlying structure that Logistic Regression can leverage<br>
+The first few PCA components explain a significant portion of the variance (Component 1 alone explains 26.15%). This suggests that dimensionality reduction is effective, and the data has underlying structure that Logistic Regression can leverage<br><br>
 **3. Well-Balanced Model**
-The macro and weighted averages for precision, recall, and F1-score are all 0.85, showing that the model performs equally well across both classes, with no major bias toward one class<br>
+The macro and weighted averages for precision, recall, and F1-score are all 0.85, showing that the model performs equally well across both classes, with no major bias toward one class<br><br>
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
 ### Linear Regression Model
 
-File:
+File: https://github.com/viksaraw/House-Prices/blob/main/Scripts/Linear%20Regression.ipynb
 
 Linear regression models the relationship between a dependent variable (target) and one or more independent variables (features) by fitting a straight line (in 2D) or a hyperplane (in higher dimensions) through the data
 
@@ -466,14 +466,14 @@ Linear regression models the relationship between a dependent variable (target) 
 
 **1. Simple and Easy to Interpret**	
 	Linear regression is straightforward to understand and implement.
-	The model’s coefficients clearly show the impact of each feature on the target variable<br>
+	The model’s coefficients clearly show the impact of each feature on the target variable<br><br>
 **2. Fast and Efficient**	
-	It’s computationally inexpensive, making it ideal for large datasets and real-time applications<br>
+	It’s computationally inexpensive, making it ideal for large datasets and real-time applications<br><br>
 **3. Good for Linearly Separable Data**
-	Performs well when the relationship between features and the target is approximately linear<br>
+	Performs well when the relationship between features and the target is approximately linear<br><br>
 **4. Useful for Inference**
 	Helps in understanding relationships between variables, not just prediction.
-	You can test hypotheses about the data using statistical metrics like p-values and confidence intervals<br>
+	You can test hypotheses about the data using statistical metrics like p-values and confidence intervals<br><br>
 
 **Implementation**
 
@@ -486,29 +486,25 @@ Linear regression models the relationship between a dependent variable (target) 
  7. Best param was found using Cross Validation
  8. Metrics like Meas Square Error, Root Mean Squared Error were calculated
     
-**Metrics with Linear Regression Model**<br>
+**Metrics with Linear Regression Model**<br><br>
 ![Metrics with Linear Regression](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%209%20Linear%20Regression.png)
 
 
 **Conclusion from Linear Regression Model**<br>
 
-1. Consistent Performance Across Train and Test Sets
-	Train R²: 0.701, Test R²: 0.703 — the model generalizes well, with nearly identical performance on both sets, indicating low overfitting
+1. Consistent Performance Across Train and Test Sets Train R²: 0.701, Test R²: 0.703 — the model generalizes well, with nearly identical performance on both sets, indicating low overfitting
 
-2.Moderate Prediction Error
-	Train RMSE: $197,757, Test RMSE: $212,041 — the model has a reasonable error margin, though the absolute values suggest room for improvement, especially for 		high-	value predictions
+2. Moderate Prediction Error Train RMSE: $197,757, Test RMSE: $212,041 — the model has a reasonable error margin, though the absolute values suggest room for improvement, especially for high-value predictions
 
-3.Stable Cross-Validation Results
-	10-fold cross-validation confirms the model’s stability, with the best test MSE at ~$44.96 billion, reinforcing that the model performs consistently across 		different data splits
+3. Stable Cross-Validation Results 10-fold cross-validation confirms the model’s stability, with the best test MSE at ~$44.96 billion, reinforcing that the model performs consistently across different data splits
 
-4.Simple Yet Effective Configuration
-	The best parameter found was fit_intercept=True, showing that even a basic linear regression setup can yield solid results when the data has a linear trend
+4. Simple Yet Effective Configuration The best parameter found was fit_intercept=True, showing that even a basic linear regression setup can yield solid results when the data has a linear trend
 
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  ### Ridge Regression
 
- File: 
+ File: https://github.com/viksaraw/House-Prices/blob/main/Scripts/Ridge%20Regression.ipynb
 
  Ridge Regression is a type of regularized linear regression that adds a penalty to the size of the coefficients to prevent overfitting. It’s especially useful when your 
  data has multicollinearity (i.e., highly correlated features) or when the number of features is large compared to the number of observations<br>
@@ -542,15 +538,15 @@ Metrics from Ridge Regression
 
 ![Metrics from Ridge](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%2012%20Ridge%202.png)
 
-Conclusion from using Ridge Regression
+**Conclusion from using Ridge Regression**<br><br>
 
-1. Consistent and Balanced Performance
+1. **Consistent and Balanced Performance**
 	Training R²: 0.701, Test R²: 0.703 — the model performs consistently across both sets, indicating good generalization and minimal overfitting.
-2. Moderate Prediction Error
+2. **Moderate Prediction Error**
 	Test RMSE: $212,053, Test MAE: $126,902 — while the model is stable, the error values suggest that predictions can still be off by a significant margin, especially 	for high-priced properties.
-3. Cross-Validation Stability
+3. **Cross-Validation Stability**
 	Best CV value: 2, with a Test MSE of ~$44.97 billion, shows that the model maintains reliable performance across folds, though a higher CV value might offer more 	robust validation.
-4. Effective Regularization
+4. **Effective Regularization**
 	Ridge regression helps control coefficient magnitudes, improving model stability without sacrificing accuracy, especially in the presence of multicollinearity
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
