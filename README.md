@@ -54,7 +54,7 @@ Below is the snapshot of sample data
 
 ### Data Quality
 
-File: 
+File: https://github.com/viksaraw/House-Prices/blob/main/Scripts/EDA.ipynb
 
 It is important to validate the quality of data before doing Machine learning Modeling.
 Following steps have been taken to assure the quality of data
