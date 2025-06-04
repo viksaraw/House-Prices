@@ -3,13 +3,13 @@
 ### Answer: Predict the price of a house using Machine Learning
 
 # Table of Contents
-   1. [Data Details](/)
-   2. [EDA](/)
-   3. [Feature Selection](/)
-   4. [Modeling](/)
-   5. [Cross Validation of Model Results](/)
-   6. [Conclusion](/)
-   7. [Business Insights](/)
+   1. Data Details
+   2. EDA
+   3. Feature Selection
+   4. Modeling
+   5. Cross Validation of Model Results
+   6. Conclusion
+   7. Business Insights
        
 ---
 ### Data Details 
