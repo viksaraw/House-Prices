@@ -553,7 +553,7 @@ Metrics from Ridge Regression
 
  ### Lasso Regression
 
-File: 
+File: https://github.com/viksaraw/House-Prices/blob/main/Scripts/Lasso%20Regression.ipynb
 
 Lasso Regression (short for Least Absolute Shrinkage and Selection Operator) is a type of linear regression with L1 regularization. It not only helps prevent overfitting but also performs feature selection by shrinking some coefficients exactly to zero.
 
@@ -591,7 +591,7 @@ Lasso Regression (short for Least Absolute Shrinkage and Selection Operator) is 
 	The performance metrics are very close to Ridge and standard Linear Regression, indicating that Lasso is equally effective for this dataset, with the added benefit 	of automatic feature selection.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Conclusion
+### Comparision and Final Conclusion
 
 1. I used this excercise to create one working predictive model to predict the housing price of the given data set
 2. I did basic Machine learning excercises following CRISP and run few models
@@ -616,7 +616,12 @@ Lasso Regression (short for Least Absolute Shrinkage and Selection Operator) is 
  #### Model Comparison Graph
  ![Model Comparison Graph](https://github.com/viksaraw/House-Prices/blob/main/Pics/Comparision%203.png)
 
- ### Insights
+ ### Business Use
+
+Best use of the modeling excercise is to predict the price for any house with maximum accuracy so that 
+
+1. Over pricing can be controlled
+2. Under pricing can be avoided
 
  
 
