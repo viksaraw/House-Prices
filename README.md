@@ -17,7 +17,7 @@ Source: https://www.kaggle.com/datasets/harlfoxem/housesalesprediction?resource=
 
 About the data: This dataset contains house sale prices for King County for homes sold between May 2014 a nd May 2015
 
-- Number of Rows   :
+- Number of Rows   : 21613
 - Number of Columns: 21
 
 ### Features Description
