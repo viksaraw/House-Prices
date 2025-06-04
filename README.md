@@ -336,7 +336,7 @@ File : https://github.com/viksaraw/House-Prices/blob/main/Scripts/Random%20Fores
 
 ![Random Forest](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%203%20RF.png)
 
-**Conclusion from Random Forest Model**<br>
+**Conclusion from Random Forest Model**<br><br>
 **1. Strong Generalization Performance**
 	Training R²: 0.9835, Test R²: 0.8530
 	The model generalizes well to unseen data, with only a modest drop from training to test accuracy—indicating low overfitting and high predictive power.<br>
@@ -375,7 +375,7 @@ File : https://github.com/viksaraw/House-Prices/blob/main/Scripts/Random%20Fores
 **Feature Importance with XBoost Model**
 ![XBoost1](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%204-XB.png)<br>
 
-**Metrics with XBoost Model**
+**Metrics with XBoost Model** <br><br>
 ![Xboost2](https://github.com/viksaraw/House-Prices/blob/main/Pics/Modeling%205%20XB%202.png)
 
 **Conclusion from XBoost Model**
