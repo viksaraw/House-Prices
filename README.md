@@ -113,10 +113,10 @@ Histogram for all the numerical columns- check skewness, check values which can 
 
 #### Analysis from Univariate EDA
 ### Findings
-1. Histogram is right skewed for Sqft_living - we can ignore the sqft living after 4000
-2. Histogram is right skewed for sqft_above - so sqft_above > 6000 can be ignored
-3. Histogram is very hight for sqft_basement with 0 value- meaning many houses don't have basement
-4. histogram is right skewed for sqft_basement - meaning data set has less records for houses having more than 2000 sqft_basement
+1. Analysis 1: Histogram is right skewed for Sqft_living - we can ignore the sqft living after 4000
+2. Analysis 2: Histogram is right skewed for sqft_above - so sqft_above > 6000 can be ignored
+3. Analysis 3: Histogram is very hight for sqft_basement with 0 value- meaning many houses don't have basement
+4. Analysis 4: Histogram is right skewed for sqft_basement - meaning data set has less records for houses having more than 2000 sqft_basement
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ### Bivariate Analysis
@@ -177,17 +177,17 @@ Coefficient between the columns is weaker if they show as blue in the graph -  t
 
 ### Analysis from Coorelation Matrix
 
- 1. sqft_living, sqft_above, and sqft_living15 are highly correlated with each other.
- 2. bedrooms, bathrooms, and grade also show strong positive correlations with many other features.
- 3. zipcode has low or no correlation with most variables, suggesting it might be better treated as a categorical feature.
+ 1. Analysis 1: sqft_living, sqft_above, and sqft_living15 are highly correlated with each other.
+ 2. Analysis 2: bedrooms, bathrooms, and grade also show strong positive correlations with many other features.
+ 3. Analysis 3: zipcode has low or no correlation with most variables, suggesting it might be better treated as a categorical feature.
 --------------------------------------------------------------------------------------------------------------------------------------------
 ### Outlier Analysis
   #### Using Box plot to see how is the distribution of Price above and beyond the 1st and 3rd Quartile
 ![View](https://github.com/viksaraw/House-Prices/blob/main/Pics/EDA%2021.png)
 
 ### Analysis from Outlier Analysis
-1. Clearly there are outliers which needs to be removed
-2. Clearly there are few outliers above 8000 sqft but those numbers are very less and can be ignored
+1. Analysis 1: Clearly there are outliers which needs to be removed
+2. Analysis 2: Clearly there are few outliers above 8000 sqft but those numbers are very less and can be ignored
 
 
 ### Overall Analysis from EDA
@@ -201,11 +201,15 @@ Coefficient between the columns is weaker if they show as blue in the graph -  t
 -------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Feature Selection
-File:
+Files
+
+By Decision Tree: https://github.com/viksaraw/House-Prices/blob/main/Scripts/FeatureSelectionByDecisionTree.ipynb
+By Other Models: https://github.com/viksaraw/House-Prices/blob/main/Scripts/Feature%20Selection.ipynb
 
 Feature selection in machine learning is the process of selecting a subset of relevant features from a larger set to improve model performance, reduce overfitting, and enhance interpretability. It involves identifying and eliminating redundant or irrelevant features to build more efficient and accurate predictive models
 
 Following models have been used to know the best features from the data set
+
 1. Decision Tree Classifier
 2. XBoost Classifier
 3. Variance Threshold
@@ -227,26 +231,26 @@ Following models have been used to know the best features from the data set
 
 #### Final Selected Features
 
-|# | Column Name    |   Reason                                            |
-|--|----------------|---------------------------------------------------  |
-|1 |  grade         |                                                     |
-|2 |  sqft_living   |                                                     |
-|3 |  lat           |                                                     |
-|4 |  waterfront    |                                                     |
-|5 |  view          |                                                     |
-|6 |  long          |                                                     | 
-|7 |  yr_built      |                                                     |  
-|8 |  zipcode       |                                                     | 
-|9 |  condition     |                                                     | 
-|10|  sqft_above    |                                                     | 
-|11|  yr_renovated  |                                                     |  
-|12|  bathrooms     |                                                     |
-|13|  sqft_lot15    |                                                     | 
-|14|  sqft_lot      |                                                     |
-|15|  sqft_basement |                                                     |  
-|16|  floors        |                                                     |
-|17|  bedrooms      |                                                     |
-|18|  sqft_living   |                                                     |
+|# | Column Name    |  
+|--|----------------|
+|1 |  grade         |                                                     
+|2 |  sqft_living   |                                                     
+|3 |  lat           |                                                     
+|4 |  waterfront    |                                                     
+|5 |  view          |                                                     
+|6 |  long          |                                                      
+|7 |  yr_built      |                                                       
+|8 |  zipcode       |                                                      
+|9 |  condition     |                                                      
+|10|  sqft_above    |                                                      
+|11|  yr_renovated  |                                                       
+|12|  bathrooms     |                                                     
+|13|  sqft_lot15    |                                                      
+|14|  sqft_lot      |                                                     
+|15|  sqft_basement |                                                       
+|16|  floors        |                                                     
+|17|  bedrooms      |                                                     
+|18|  sqft_living   |                                                     
 
 ### Modeling
 Now that the Data is cleaned up and Features are decided, it is time to add different models to this and see their performance
@@ -263,7 +267,8 @@ I will apply the following models and measure their metrics
 
 
 #### 1. Decision Tree
-File : 
+File : https://github.com/viksaraw/House-Prices/blob/main/Scripts/Decision%20Tree.ipynb
+
 First of all the Decision Tree Regressor was used. Since this easy to understand and visualize, making them valuable for decision-making. 
 
 **Advantages**:
